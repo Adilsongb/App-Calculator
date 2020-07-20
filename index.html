@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+
+</head>
+<body>
+
+    <div id="container">
+        
+        <div id="calculadora">
+
+            <input id="resultado" type="text" name="resultado" id="resultado" placeholder="0" disabled="disabled">
+    
+            <div class="linha">
+                <button type="button" onclick="calcular('acao', 'C')" class="botao clear">C</button>
+                <button type="button" onclick="calcular('acao', '/')" class="botao">/</button>
+                <button type="button" onclick="calcular('acao', '*')" class="botao margemf">x</button>
+            </div>
+    
+            <div class="linha">
+                <button type="button" onclick="calcular('valor', 7)" class="botao">7</button>
+                <button type="button" onclick="calcular('valor', 8)" class="botao">8</button>
+                <button type="button" onclick="calcular('valor', 9)" class="botao">9</button>
+                <button type="button" onclick="calcular('acao', '-')" class="botao margemf">-</button>
+            </div>
+    
+            <div class="linha">
+                <button type="button" onclick="calcular('valor', 4)" class="botao">4</button>
+                <button type="button" onclick="calcular('valor', 5)" class="botao">5</button>
+                <button type="button" onclick="calcular('valor', 6)" class="botao">6</button>
+                <button type="button" onclick="calcular('acao', '+')" class="botao margemf">+</button>
+            </div>
+    
+            <div class="linha_left">
+                <button type="button" onclick="calcular('valor', 1)" class="botao">1</button>
+                <button type="button" onclick="calcular('valor', 2)" class="botao">2</button>
+                <button type="button" onclick="calcular('valor', 3)" class="botao margemf">3</button>
+                <button type="button" onclick="calcular('valor', 0)" class="botao clear">0</button>
+                <button type="button" onclick="calcular('acao', '.')" class="botao margemf">.</button>
+            </div>
+    
+            <div class="linha_right">
+                <button type="button" onclick="calcular('acao', '=')" class="botao margemf igual">=</button>
+            </div>
+    
+            <br style="clear: both; height: 0px;">
+    
+        </div>
+
+    </div>
+    
+</body>
+</html>

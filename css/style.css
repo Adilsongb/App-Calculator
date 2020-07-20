@@ -1,0 +1,104 @@
+body {
+
+    background-color: rgb(106, 240, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#calculadora {
+
+    background-color: rgb(228, 228, 228);
+    padding: 20px;
+    padding-bottom: 10px;
+    margin: auto;
+    width: 300px;
+    margin-top: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 8px rgb(165, 165, 165);
+}
+
+#resultado {
+
+    width: 100%;
+    box-sizing: border-box;
+    text-align: right;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    
+}
+
+.linha_left {
+
+    float: left;
+    width: 222.5px;
+
+}
+
+.linha_right {
+
+    float: right;
+
+}
+
+.botao {
+
+    background-color: #afafaf;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-right: 5px;
+    width: 67.5px;
+    height: 60px;
+    padding: 0px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    box-shadow: 0px 1px 2px rgb(165, 165, 165);
+
+}
+
+.botao:focus {
+
+    border: none;
+    outline: none;
+
+}
+
+.botao:hover {
+
+    background-color: rgb(128, 128, 128);
+    box-shadow: 0px 1px 5px rgb(100, 100, 100);
+    transition: box-shadow 0.3s, background-color 0.3s;
+
+}
+
+.botao:active {
+
+    box-shadow: 0px 1px 1px rgb(100, 100, 100);
+    transition: box-shadow 0.3s;
+
+}
+
+.margemf {
+
+    margin-right: 0px;
+    
+}
+
+.clear {
+
+    width: 145px;
+
+}
+
+.igual {
+
+    height: 130px;
+
+}
+
